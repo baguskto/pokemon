@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/0e1f6e7b818c2b2305f154d1bf71682e8c8bb645/assets/preview/preview.gif" width="300">
+  <img src="https://github.com/baguskto/pokemon/blob/0e1f6e7b818c2b2305f154d1bf71682e8c8bb645/assets/preview/preview.gif" width="150">
 </p>
 
 Pokemon Flutter App is a beautiful and highly functional Pokemon application built with Flutter 3.0 and powered by the GetX pattern for state management. This app allows you to view a list of Pokemon with smooth animations, see Pokemon details with great transitions, and view custom error pages.
