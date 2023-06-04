@@ -13,7 +13,6 @@ class PokemonController extends GetxController with StateMixin {
       : _repository = repository,
         _pokemonDetailRepository = pokemonDetailRepository;
 
-  final _isLoading = true.obs;
   final _offset = 0.obs;
   final _pokemon = <PokemonDetail>[].obs;
 
@@ -34,18 +33,32 @@ class PokemonController extends GetxController with StateMixin {
     try {
       final pokemonResponse =
           await _repository.fetchPokemon(_offset.value, null);
+
       if (pokemonResponse != null) {
         for (var result in pokemonResponse.results) {
-          final pokemonDetail =
-              await _pokemonDetailRepository.fetchPokemonDetail(result.name);
-          if (pokemonDetail != null) {
-            _pokemon.add(pokemonDetail);
+          try {
+            final pokemonDetail =
+                await _pokemonDetailRepository.fetchPokemonDetail(result.name);
+            if (pokemonDetail != null) {
+              _pokemon.add(pokemonDetail);
+              change(_pokemon, status: RxStatus.success());
+            } else {
+              change(null,
+                  status: RxStatus.error('Could not fetch Pokemon details.'));
+            }
+          } catch (error) {
+            change(null,
+                status: RxStatus.error(
+                    'An error occurred while fetching Pokemon details: $error'));
           }
         }
+      } else {
+        change(null, status: RxStatus.error('No Pokemon found.'));
       }
-      change(_pokemon, status: RxStatus.success());
     } catch (error) {
-      change(null, status: RxStatus.error('An error occurred: $error'));
+      change(null,
+          status: RxStatus.error(
+              'An error occurred while fetching Pokemon: $error'));
     }
   }
 }
