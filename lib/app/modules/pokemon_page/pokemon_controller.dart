@@ -29,7 +29,7 @@ class PokemonController extends GetxController with StateMixin {
 
   Future<void> fetchAllPokemon() async {
     _pokemon.clear();
-    updateStatus(RxStatus.loading());
+    change(null, status: RxStatus.loading());
 
     try {
       final pokemonResponse =
@@ -43,15 +43,9 @@ class PokemonController extends GetxController with StateMixin {
           }
         }
       }
-      _isLoading.value = false;
-      updateStatus(RxStatus.success());
+      change(_pokemon, status: RxStatus.success());
     } catch (error) {
-      _isLoading.value = false;
-      updateStatus(RxStatus.error('An error occurred: $error'));
+      change(null, status: RxStatus.error('An error occurred: $error'));
     }
-  }
-
-  void updateStatus(RxStatus status) {
-    change(_pokemon.value, status: status);
   }
 }
