@@ -33,7 +33,7 @@ When you select a Pokemon from the list, the app transitions to a detailed view 
 In the event of a problem (such as a loss of internet connection), the app shows a custom error page. This page provides a more personalized and user-friendly error handling.
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview2.jpeg" width="270">
+  <img src="https://github.com/baguskto/pokemon/blob/4dbc23d0b70b53a8ddda96d33145e00dd81e7608/assets/preview/error.jpeg" width="270">
 </p>
 
 ## How to Run the App
