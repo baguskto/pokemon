@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/71df68f9babf272637952b7d5821844b02233bb0/assets/preview/preview.gif" width="300">
+  <img src="https://github.com/baguskto/pokemon/blob/0e1f6e7b818c2b2305f154d1bf71682e8c8bb645/assets/preview/preview.gif" width="300">
 </p>
 
 Pokemon Flutter App is a beautiful and highly functional Pokemon application built with Flutter 3.0 and powered by the GetX pattern for state management. This app allows you to view a list of Pokemon with smooth animations, see Pokemon details with great transitions, and view custom error pages.
@@ -17,7 +17,7 @@ Pokemon Flutter App is a beautiful and highly functional Pokemon application bui
 This feature allows you to scroll through a list of Pokemon. Each Pokemon is displayed in a card that smoothly animates into view.
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview1.jpeg" width="300">
+  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview1.jpeg" width="270">
 </p>
 
 ### 2. Detail Pokemon with amazing transition
@@ -25,7 +25,7 @@ This feature allows you to scroll through a list of Pokemon. Each Pokemon is dis
 When you select a Pokemon from the list, the app transitions to a detailed view of the selected Pokemon. The transition is seamless and enhances the user experience.
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview3.jpeg" width="300">
+  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview3.jpeg" width="270">
 </p>
 
 ### 3. Error page
@@ -33,7 +33,7 @@ When you select a Pokemon from the list, the app transitions to a detailed view 
 In the event of a problem (such as a loss of internet connection), the app shows a custom error page. This page provides a more personalized and user-friendly error handling.
 
 <p align="center">
-  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview2.jpeg" width="300">
+  <img src="https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview2.jpeg" width="270">
 </p>
 
 ## How to Run the App
@@ -52,7 +52,5 @@ In the event of a problem (such as a loss of internet connection), the app shows
 - [Flutter Staggered Animations](https://pub.dev/packages/flutter_staggered_animations) for animations
 - [Skeletons](https://pub.dev/packages/skeletons) for skeleton loading
 
-## Licence
 
-This project is under the [MIT Licence](path-to-your-licence)
 
