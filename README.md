@@ -12,25 +12,25 @@ Pokemon Flutter App is a beautiful and highly functional Pokemon application bui
 
 This feature allows you to scroll through a list of Pokemon. Each Pokemon is displayed in a card that smoothly animates into view.
 
-![List Pokemon](path-to-your-image)
+![List Pokemon](https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview1.jpeg)
 
 ### 2. Detail Pokemon with amazing transition
 
 When you select a Pokemon from the list, the app transitions to a detailed view of the selected Pokemon. The transition is seamless and enhances the user experience.
 
-![Detail Pokemon](path-to-your-image)
+![Detail Pokemon](https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview3.jpeg)
 
 ### 3. Error page
 
 In the event of a problem (such as a loss of internet connection), the app shows a custom error page. This page provides a more personalized and user-friendly error handling.
 
-![Error Page](path-to-your-image)
+![Error Page](https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/preview2.jpeg)
 
 ## Video
 
 You can watch a complete video of the application to see all the features in action.
 
-[![Pokemon Flutter App](path-to-your-thumbnail)](path-to-your-video)
+[![Pokemon Flutter App](path-to-your-thumbnail)](https://github.com/baguskto/pokemon/blob/c4e8f48004e2c072c3bd86c498eb2fee47d00294/assets/preview/video.mp4)
 
 ## How to Run the App
 
