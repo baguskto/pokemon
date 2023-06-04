@@ -4,7 +4,7 @@
 <img src="assets/icon/ic_launcher.png" width="80">
 </p>
 
-[![Pokemon Flutter App](path-to-your-thumbnail)](https://github.com/baguskto/pokemon/blob/71df68f9babf272637952b7d5821844b02233bb0/assets/preview/preview.gif)
+[![Pokemon Flutter App](https://github.com/baguskto/pokemon/blob/71df68f9babf272637952b7d5821844b02233bb0/assets/preview/preview.gif)]
 
 
 Pokemon Flutter App is a beautiful and highly functional Pokemon application built with Flutter and powered by the GetX pattern for state management. This app allows you to view a list of Pokemon with smooth animations, see Pokemon details with great transitions, and view custom error pages.
